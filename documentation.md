@@ -5,6 +5,10 @@
 **Submission Date:** [13-10-2025]
 
 ---
+## We are able to get 3505 out of 5523 submitted teams, and 3505 out of 20,000 registered teams
+![WhatsApp Image 2025-10-14 at 19 00 05_c073e897](https://github.com/user-attachments/assets/c34a366a-1cb0-4050-97a6-a61e5a9f94db)
+
+
 
 ## 1. Executive Summary
 
@@ -46,62 +50,18 @@ Checkpointing is implemented after every epoch, allowing seamless recovery and r
 ## 3. Model Architecture
 
 ### 3.1 Architecture Overview
+## Text pipline
+### catalog Text
+<img width="348" height="326" alt="image" src="https://github.com/user-attachments/assets/fc0a3dd4-c4ce-468f-9abe-ff04df843499" />
 
-┌────────────────────────────┐
-│ Catalog Content │
-└────────────┬───────────────┘
-│
-▼
-┌────────────────────┐
-│ Text Preprocessing │ ← Lowercasing
-└────────────────────┘
-│
-▼
-┌────────────────────┐
-│ TF-IDF Features │ ← max_features=100
-└────────────────────┘
+### Derived Featueres
 
-┌────────────────────────────┐
-│ Value, Unit, Pack Count │
-└────────────┬───────────────┘
-│
-▼
-┌────────────────────┐
-│ Tabular Preprocess │ ← Feature extraction
-└────────────────────┘
-│
-▼
-┌────────────────────┐
-│ OneHot + Scaler │ ← OneHotEncoder + StandardScaler
-└────────────────────┘
+<img width="452" height="321" alt="image" src="https://github.com/user-attachments/assets/ab0cbf23-e891-43d1-b42e-0e3137875e2d" />
 
-┌────────────────────────────┐
-│ Image URL │
-└────────────┬───────────────┘
-│
-▼
-┌────────────────────┐
-│ Image Preprocessing│ ← Resize(300x300), Normalize
-└────────────────────┘
-│
-▼
-┌────────────────────┐
-│ EfficientNet-B3 │ ← Pretrained, classifier removed
-└────────────────────┘
 
-             ▼
+### Images pipline
+<img width="483" height="636" alt="image" src="https://github.com/user-attachments/assets/c3ad458f-df9b-4fb9-853c-447fc90fd686" />
 
-┌────────────────────────────────────────────┐
-│ Concatenate [Image(1536) + Text(64) + Tabular(64)] │
-└────────────────────────────────────────────┘
-▼
-┌────────────────────┐
-│ Final FC Layers │ ← Linear(1664→128) → ReLU → Linear(128→1)
-└────────────────────┘
-▼
-┌────────────────────┐
-│ Price Output │
-└────────────────────┘
 
 ### 3.2 Model Components
 
@@ -199,5 +159,3 @@ _Include any additional charts, graphs, or detailed results_
 
 
 ---
-
-**Note:** This is a suggested template structure. Teams can modify and adapt the sections according to their specific solution approach while maintaining clarity and technical depth. Focus on highlighting the most important aspects of your solution.
