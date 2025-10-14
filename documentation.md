@@ -1,8 +1,8 @@
 # ML Challenge 2025: Smart Product Pricing Solution Template
 
-**Team Name:** [Absolut]  
-**Team Members:** [Middela SaiPavan, Yerra Srikar Nivas Reddy, Sadha Shiva Aeshala]  
-**Submission Date:** [13-10-2025]
+**Team Name:** Absolut
+**Team Members:** Middela SaiPavan, Yerra Srikar Nivas Reddy, Sadha Shiva Aeshala
+**Submission Date:** 13-10-2025
 
 ---
 ## We are able to get 3505 out of 5523 submitted teams, and 3505 out of 20,000 registered teams
