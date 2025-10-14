@@ -193,9 +193,10 @@ _[Include drive link for your complete code directory](https://drive.google.com/
 ### B. Additional Results
 
 _Include any additional charts, graphs, or detailed results_
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
+<img width="1086" height="679" alt="image" src="https://github.com/user-attachments/assets/cbb514e2-5c1d-4806-be82-2a6e5314a54f" />
+<img width="1080" height="670" alt="image" src="https://github.com/user-attachments/assets/a5c95d0d-6b37-4f52-8614-ded02f4ad222" />
+<img width="986" height="482" alt="image" src="https://github.com/user-attachments/assets/497d7e52-8d2c-42ce-b922-5dbded5329de" />
+
 
 ---
 
