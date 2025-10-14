@@ -8,7 +8,9 @@
 ## We are able to get 3505 out of 5523 submitted teams, and 3505 out of 20,000 registered teams
 ![WhatsApp Image 2025-10-14 at 19 00 05_c073e897](https://github.com/user-attachments/assets/c34a366a-1cb0-4050-97a6-a61e5a9f94db)
 
-
+### We were able to Achieve a SMAPE score = 68 while using EfficientNet-B0 Model 
+### and after using EfficientNet-B3 Model we were able to get SMAPE score = 57 on a Validation Set.
+#### (Lesser the SMAPE better the Performance of the Model)
 
 ## 1. Executive Summary
 
@@ -64,6 +66,8 @@ Checkpointing is implemented after every epoch, allowing seamless recovery and r
 
 
 ### 3.2 Model Components
+#### Different Models Comparison Chart
+![WhatsApp Image 2025-10-12 at 08 52 48_aa8d4877](https://github.com/user-attachments/assets/6bb21072-fbf3-47d4-9956-800d791e2435)
 
 **Text Processing Pipeline:**
 Text Processing Pipeline
@@ -152,8 +156,13 @@ _[Include drive link for your complete code directory](https://drive.google.com/
 
 ### B. Additional Results
 
+#### Distribution of Product Price Vs Frequency
 <img width="1086" height="679" alt="image" src="https://github.com/user-attachments/assets/cbb514e2-5c1d-4806-be82-2a6e5314a54f" />
+
+#### Frequency of Units Vs Count
 <img width="1080" height="670" alt="image" src="https://github.com/user-attachments/assets/a5c95d0d-6b37-4f52-8614-ded02f4ad222" />
+
+#### Box Plot of Product Prices 
 <img width="986" height="482" alt="image" src="https://github.com/user-attachments/assets/497d7e52-8d2c-42ce-b922-5dbded5329de" />
 
 
