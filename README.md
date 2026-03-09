@@ -1,4 +1,4 @@
-# ML Challenge 2025: Smart Product Pricing Solution Template
+# ML Challenge 2025: Smart Product Pricing Solution 
 
 **Team Name:** Absolut
 **Team Members:** Middela SaiPavan, Yerra Srikar Nivas Reddy, Sadha Shiva Aeshala
